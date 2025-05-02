@@ -1,0 +1,42 @@
+@import "./scss/bootstrap";
+@import "./scss/auth";
+@import "./scss/screenLoader";
+
+#root{
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+}
+
+/* Layout styling */
+.ant-layout-header {
+    background-color: #001529;
+  }
+  
+  .ant-layout-sider {
+    background-color: #001529;
+  }
+  
+  .ant-layout-content {
+    background-color: #f5f5f5;
+  }
+  
+  /* Menu item hover effects */
+  .ant-menu-item:hover {
+    background-color: #1890ff;
+    color: #fff;
+  }
+  
+  .ant-breadcrumb {
+    margin-bottom: 20px;
+  }
+  
+  .demo-logo {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
